@@ -5,7 +5,7 @@ import LoginPage from "../../components/pages/account/LoginPage";
 const Login = () => {
     return (
         <Layout>
-            <div className=' flex justify-center px-1'>
+            <div className=' flex justify-center px-2'>
                 <LoginPage />
             </div>
         </Layout>
