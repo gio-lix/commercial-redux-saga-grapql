@@ -11,7 +11,7 @@ const LoginPage: FC<ILoginPage> = () => {
          <h4 className='text-center font-bold'>LOGIN</h4>
              <div className='flex justify-center my-8 '>
                  <Link href="/api/auth/login">
-                     <a  className='w-52 rounded-2xl  h-10 font-bold border border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white'
+                     <a  className='w-52 h-10 font-bold border border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white'
                      >Sign In With Google</a>
                  </Link>
              </div>
