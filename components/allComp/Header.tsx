@@ -30,9 +30,9 @@ const Header: FC<IHeader> = () => {
                               </li>
                           )}
                           {(!isLoading && user) && (
-                              <button>
-                                  <a href="/api/auth/logout">Logout</a>
-                              </button>
+                              <Link  href="/api/auth/logout">
+                                  <a>Logout</a>
+                              </Link>
                           )}
 
                       </ul>
