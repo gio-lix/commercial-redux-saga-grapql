@@ -1,6 +1,7 @@
 import {FC} from "react"
 import Head from 'next/head'
 import Header from "./allComp/Header";
+import Footer from "./allComp/Footer";
 
 interface ILayout {
     title?: string,
@@ -21,6 +22,7 @@ const Layout: FC<ILayout> = ({children,description,keywords,title}) => {
           <div>
               {children}
           </div>
+          <Footer />
       </div>
      </>
   )
